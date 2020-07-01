@@ -1,0 +1,14 @@
+#header {
+    background: linear-gradient(to right, #000000 33%, #ffffff 89%);
+    height: 510px;
+}
+
+#header h4 {
+    color: #E2A723;
+    font-size: 31px;
+}
+
+#header h2 {
+    color: #ffffff;
+    font-size: 71px;
+}
