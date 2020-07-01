@@ -18,7 +18,7 @@
 </head>
 <body>
     <!--- Navbar --->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" id="principal-navbar">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand">BajaXsports</a>
@@ -95,9 +95,11 @@
         <div class="row">
             <div class="col-sm-6">
                 <p>Tijuana</p>
+                <img src="assets/img/tijuana-map.png" alt="Mapa Tijuana">
             </div>
             <div class="col-sm-6">
                 <p>Mexicali</p>
+                <img src="assets/img/mexicali-map.png" alt="Mapa Mexicali">
             </div>
         </div>
         <div class="info-location">

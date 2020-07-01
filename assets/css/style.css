@@ -1,5 +1,9 @@
+/*** Navbar ***/
+
+#principal-navbar {}
+
 #header {
-    background: linear-gradient(to right, #000000 33%, #ffffff 89%);
+    background: linear-gradient(to right, #000000 36%, #ffffff 64%);
     height: 510px;
 }
 
@@ -11,4 +15,11 @@
 #header h2 {
     color: #ffffff;
     font-size: 71px;
+}
+
+
+/*** Location ***/
+
+#location img {
+    width: 100%;
 }
