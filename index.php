@@ -19,38 +19,43 @@
 <body>
     <!--- Navbar --->
     <nav class="navbar navbar-default" id="principal-navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">BajaXsports</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li><a href="#">Can-am</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#">Cotizacion</a></li>
-                <li><a href="#">Mantenimiento</a></li>
-                <li><a href="#">Accesorios/Refacciones</a></li>
-            </ul>
+        <div class="navbar-header" id="principal-navbar-header">
+            <a href="#" class="navbar-brand">
+                <img src="assets/img/logo-navbar.png" style="width: 95%;">
+            </a>
         </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#"></a></li>
+            <li><a href="#">Cotizacion</a></li>
+            <li><a href="#">Mantenimiento</a></li>
+            <li><a href="#">Accesorios/Refacciones</a></li>
+        </ul>
     </nav>
 
     <!--- Header --->
     <div class="container-fluid" id="header">
         <div class="welcome-message">
-            <h4>Bienvenido al 2020</h4>
-            <h2>Estamos hechos para esto</h2>
+            <div class="center">
+                <h4>Bienvenido al 2020</h4>
+                <h2>Estamos hechos para esto</h2>
+            </div>
         </div>
     </div>
 
     <!--- Introduction --->
     <div class="container-fluid" id="introduction">
-        <p>Aventura, desempeño y trabajo. Es aqui donde nos destacamos.</p>
-        <h2>Somos BajaXsports</h2>
-        <p>Estas listo para esto? Estamos listos para ti: de las dunas a los cultivos, de los senderos lodosos a las tormentas de nieve, no hay limite para tu aventura con can-am, asi que empieza a explorar </p>
+        <div class="container" style="margin: 15px auto">
+            <p>Aventura, desempeño y trabajo. Es aqui donde nos destacamos.</p>
+            <h2>Somos <span class="semi-highlight">BajaXsports</span></h2>
+            <p>¿Estás listo para esto? Estamos listos para ti: de las dunas a los cultivos,</p>
+            <p>de los senderos lodosos a las tormentas de nieve, no hay límite para</p>
+            <p>tu aventura con can-am, asi que empieza a explorar </p>
+        </div>
     </div>
 
     <!--- Categories --->
     <div class="container-fluid" id="categories">
-        <h2>Que terreno vas a dominar?</h2>
+        <h2 style="color: #ffffff; font-size: 44px;">¿Que terreno vas a <span style="color: #E2A723">dominar</span>?</h2>
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
@@ -91,54 +96,59 @@
 
     <!--- location --->
     <div class="container" id="location">
-        <h2>Ubicaciones</h2>
+        <h2 style="font-size: 44px"><span>Ubicaciones</span></h2>
         <div class="row">
             <div class="col-sm-6">
-                <p>Tijuana</p>
+                <p style="font-size: 27px;">Tijuana</p>
                 <img src="assets/img/tijuana-map.png" alt="Mapa Tijuana">
             </div>
             <div class="col-sm-6">
-                <p>Mexicali</p>
+                <p style="font-size: 27px; ">Mexicali</p>
                 <img src="assets/img/mexicali-map.png" alt="Mapa Mexicali">
             </div>
         </div>
         <div class="info-location">
-        <i class="fas fa-map-marker-alt"></i> <p>Tijuana &nbsp; Plaza Mundo Divertido: Via rapida poniente #15035 Fracc. San jose 2Da. Etapa Río Tijuana B.C.</p>
-                                              <p>Mexicali &nbsp; Blvrd Lázaro Cárdenas 1307, Col del rastro, 21090 Mexicali, B.C.</p>
-
-        <i class="fas fa-phone-alt"></i> <p>TLJ (664) 607 2727 <span>|</span> MXLI (686) 488 7373</p>
-
-        <i class="fas fa-envelope"></i><p>info@bajaxsports.com</p><p>Siguenos en</p><a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a><a href="#" class="btn btn-primary"><i class="fab fa-instagram"></i></a>
+            <div class="address">
+                <i class="fas fa-map-marker-alt"></i> <p style="display: inline;">Tijuana &nbsp; <span>|</span>&nbsp; Plaza Mundo Divertido: Via rapida poniente #15035 Fracc. San jose 2Da. Etapa Río Tijuana B.C.</p>
+                                                    <p style="margin-left: 25px">Mexicali <span>|</span>&nbsp; Blvrd Lázaro Cárdenas 1307, Col del rastro, 21090 Mexicali, B.C.</p>
+            </div>
+            <div class="phone">
+                <i class="fas fa-phone-alt"></i> <p style="display: inline;">TLJ (664) 607 2727 <span>|</span> MXLI (686) 488 7373</p>
+            </div>
+            <div class="email">
+                <i class="fas fa-envelope"></i><p style="display: inline;">info@bajaxsports.com</p><p style="float: right;">Siguenos en<a href="#" class="circle"><i class="fab fa-facebook-f" style="margin: 4px 5px 2px 7px;"></i></a>
+                                                                                                                                       <a href="#" class="circle"><i class="fab fa-instagram" style="margin: 4px 5px 2px 5px;"></i></a></p>
+            </div>
         </div>
     </div>
 
     <!--- pictures above footer --->
-    <div class="container-fluid">
-        <div class="row">
+    <div class="" id="pictures">
            <img src="assets/img/pasarela/image1.png" alt="">
            <img src="assets/img/pasarela/image2.png" alt="">
            <img src="assets/img/pasarela/image3.png" alt="">
            <img src="assets/img/pasarela/image4.png" alt="">
-        </div>
     </div>
 
     <!--- Footer --->
-    <footer class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="assets/img/logo.png" alt="logo">
-            </div>
-            <div class="col-md-8">
-                <div class="links-1">
-                    <a href="#">Cotizacion</a> 
-                    <a href="#">Mantenimiento</a> 
-                    <a href="#">Accesorios/Refacciones</a>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/img/logo.png" alt="logo" style="width: 80%; margin-left: 110px">
                 </div>
-                <div class="links-2">
-                    <a href="#">ATV</a>
-                    <a href="#">Side-By-Side</a>
-                    <a href="#">On-Road</a>
-                    <a href="#">Sea-Doo</a>
+                <div class="col-md-8" style="margin-top: 15px">
+                    <div class="links-1" >
+                        <a href="#">Cotizacion</a> 
+                        <a href="#">Mantenimiento</a> 
+                        <a href="#">Accesorios/Refacciones</a>
+                    </div>
+                    <div class="links-2">
+                        <a href="#">ATV</a>
+                        <a href="#">Side-By-Side</a>
+                        <a href="#">On-Road</a>
+                        <a href="#">Sea-Doo</a>
+                    </div>
                 </div>
             </div>
         </div>
