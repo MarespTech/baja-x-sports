@@ -1,3 +1,25 @@
+/*** Global **/
+
+.semi-highlight {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, #e2a723 50%);
+}
+
+.center {
+    margin: 15% 10%;
+    text-align: center;
+}
+
+.tittle {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.btn-yellow {
+    background-color: #E2A723;
+}
+
+
 /*** Navbar ***/
 
 #principal-navbar,
@@ -94,11 +116,6 @@
     margin-left: 0;
 }
 
-.center {
-    margin: 15% 10%;
-    text-align: center;
-}
-
 
 /*** Introduction ***/
 
@@ -132,10 +149,6 @@
 
 #introduction>div h2 {
     font-size: 59px;
-}
-
-.semi-highlight {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, #e2a723 50%);
 }
 
 
@@ -279,4 +292,91 @@ footer .links-2 {
 .links-2 a {
     color: #ffffff;
     margin-right: 15px;
+}
+
+
+/************************************* COTIZACION *************************************/
+
+.cotizacion-form {
+    margin: 50px 10%;
+}
+
+.cotizacion-form input:not([type=submit]) {
+    padding: 20px;
+}
+
+input::placeholder,
+input:-moz-placeholder,
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input::-ms-input-placeholder,
+option {
+    text-transform: uppercase;
+    background: #FAD3D5;
+    font-size: 16px;
+}
+
+.btn-xl {
+    padding: 20px 20px 80px;
+    font-size: 23px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+    .btn-xl {
+        padding: 10px 20px 40px;
+    }
+}
+
+.btn-xl p {
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.pagos {
+    display: flex;
+}
+
+.div.pago {
+    flex-basis: calc(25%);
+}
+
+.div-pago img {
+    width: 100%;
+}
+
+.jumboText {
+    background-image: url(../img/jumbotext-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 460px) {
+    .jumboText {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .jumboText {
+        height: 400px;
+    }
+}
+
+.jumboText p {
+    font-size: 21px;
+}
+
+.jumboText h2 {
+    font-size: 59px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% auto;
 }

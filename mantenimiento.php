@@ -1,0 +1,1 @@
+<!--- Basicamente lo mismo que en cotizaciones solo que con otra foto--->
