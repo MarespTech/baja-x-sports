@@ -14,22 +14,29 @@
 
     <!--- Style.css --->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Baja X Sports</title>
 </head>
 <body>
     <!--- Navbar --->
     <nav class="navbar navbar-default" id="principal-navbar">
         <div class="navbar-header" id="principal-navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
             <a href="#" class="navbar-brand">
-                <img src="assets/img/logo-navbar.png" style="width: 95%;">
+                <img src="assets/img/logo-navbar.png" >
             </a>
         </div>
-        <ul class="nav navbar-nav">
-            <li><a href="#"></a></li>
-            <li><a href="#">Cotizacion</a></li>
-            <li><a href="#">Mantenimiento</a></li>
-            <li><a href="#">Accesorios/Refacciones</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav" >
+                <li><a href="#"></a></li>
+                <li><a href="#">Cotizacion</a></li>
+                <li><a href="#">Mantenimiento</a></li>
+                <li><a href="#">Accesorios/Refacciones</a></li>
+            </ul>
+        </div>
     </nav>
 
     <!--- Header --->
@@ -44,7 +51,7 @@
 
     <!--- Introduction --->
     <div class="container-fluid" id="introduction">
-        <div class="container" style="margin: 15px auto">
+        <div class="container" style="margin-top: 25px">
             <p>Aventura, desempeño y trabajo. Es aqui donde nos destacamos.</p>
             <h2>Somos <span class="semi-highlight">BajaXsports</span></h2>
             <p>¿Estás listo para esto? Estamos listos para ti: de las dunas a los cultivos,</p>
@@ -70,7 +77,7 @@
                     <div class="thumbnail">
                         <img src="assets/img/Modelos/Side-By-Side/Maverick X3 MAX X RS Turbo RR.png" alt="Side By Side">
                         <div class="caption">
-                            <p>Side By Side</p>
+                            <p>Side-By-Side</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +85,7 @@
                     <div class="thumbnail">
                         <img src="assets/img/Modelos/On-Road/Ryker.png" alt="On Road">
                         <div class="caption">
-                            <p>On Road</p>
+                            <p>On-Road</p>
                         </div>
                     </div>
                 </div>
@@ -86,7 +93,7 @@
                     <div class="thumbnail">
                         <img src="assets/img/Modelos/Sea-Doo/Fish Pro.png" alt="Sea Doo">
                         <div class="caption">
-                            <p>Sea Doo</p>
+                            <p>Sea-Doo</p>
                         </div>
                     </div>
                 </div>

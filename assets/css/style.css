@@ -7,8 +7,56 @@
 
 #principal-navbar-header {
     background-color: #E2A723;
-    padding-left: 100px;
-    max-width: 45%;
+    max-width: 100%;
+}
+
+#principal-navbar-header img {
+    width: 90%;
+    float: left;
+}
+
+#principal-navbar-header a {
+    float: left;
+    width: calc(80%);
+}
+
+#myNavbar {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    #principal-navbar-header {
+        max-width: calc(30%);
+        padding-left: 80px;
+    }
+    #principal-navbar-header img {
+        width: calc(100%);
+    }
+    #principal-navbar-header a {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 998px) {
+    #principal-navbar-header {
+        max-width: calc(45%);
+        padding-left: 100px;
+    }
+    #principal-navbar-header img {
+        width: calc(95%);
+    }
+}
+
+#principal-navbar>div,
+#principal-navbar>ul {
+    padding: 3px 0 5px;
+}
+
+#principal-navbar a {
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
 }
 
 #categories,
@@ -38,18 +86,16 @@
 #header h2 {
     color: #ffffff;
     font-size: 71px;
+    background-color: #FAD3D5;
 }
 
 .welcome-message {
     width: 50%;
     margin-left: 0;
-    position: relative;
 }
 
 .center {
-    position: absolute;
-    top: 50%;
-    width: 100%;
+    margin: 15% 10%;
     text-align: center;
 }
 
@@ -60,9 +106,23 @@
     background-image: url(../img/introduction-background.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;
+    background-size: cover;
+    height: 500px;
     text-align: center;
     text-transform: uppercase;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 662px) {
+    #introduction {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 998px) {
+    #introduction {
+        height: 300px;
+    }
 }
 
 #introduction>div p {
@@ -75,7 +135,7 @@
 }
 
 .semi-highlight {
-    background: linear-gradient(to bottom, #ffffff 50%, #e2a723 50%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, #e2a723 50%);
 }
 
 
@@ -90,9 +150,12 @@
 #categories .thumbnail {
     background-color: #000000;
     border: none;
+    height: 280px;
+    overflow: hidden;
 }
 
 #categories .thumbnail img {
+    width: 100%;
     height: 235px;
 }
 
@@ -104,6 +167,15 @@
 
 #categories .caption p {
     padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 1020px) {
+    #categories .row {
+        margin-left: 10%;
+    }
+    #categories .row>div {
+        width: 193px
+    }
 }
 
 
@@ -159,10 +231,17 @@
     padding-top: 25px;
     padding-bottom: 25px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #pictures img {
-    flex-basis: 25%;
+    flex-basis: 100%;
+}
+
+@media only screen and (min-width:556px) {
+    #pictures img {
+        flex-basis: calc(25%);
+    }
 }
 
 
@@ -170,9 +249,15 @@
 
 footer {
     background-color: #000;
-    height: 180px;
+    height: 380px;
     padding: 30px;
     text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1020px) {
+    footer {
+        height: 180px;
+    }
 }
 
 footer .links-1,
