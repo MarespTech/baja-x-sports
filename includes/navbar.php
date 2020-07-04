@@ -32,8 +32,8 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav" >
                 <li><a href="cotizacion.php">Cotizacion</a></li>
-                <li><a href="#">Mantenimiento</a></li>
-                <li><a href="#">Accesorios/Refacciones</a></li>
+                <li><a href="mantenimiento.php">Mantenimiento</a></li>
+                <li><a href="accesorios-refacciones.php">Accesorios/Refacciones</a></li>
             </ul>
         </div>
     </nav>

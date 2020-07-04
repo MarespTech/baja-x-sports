@@ -14,58 +14,41 @@
             </div>
             <div class="form-group row">
                 <div class="col-sm-6">
-                    <input class="form-control" name="name" type="text" placeholder="Nombre">
+                    <input class="form-control" name="name" type="text" placeholder="Nombre required">
                 </div>
                 <div class="col-sm-6">
-                    <input class="form-control" name="apellidos" type="text" placeholder="Apellidos">
+                    <input class="form-control" name="apellidos" type="text" placeholder="Apellidos" required>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-sm-6">
-                    <input class="form-control" name="telefono" type="text" placeholder="Numero de Teléfono">
+                    <input class="form-control" name="telefono" type="text" placeholder="Numero de Teléfono" required>
                 </div>
                 <div class="col-sm-6">
-                    <input class="form-control" name="email" type="email" placeholder="Correo Electrónico">
+                    <input class="form-control" name="email" type="email" placeholder="Correo Electrónico" required>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-sm-8">
-                    <input class="form-control" name="domicilio" type="text" placeholder="Domicilio">
+                    <input class="form-control" name="domicilio" type="text" placeholder="Domicilio" required>
                 </div>
                 <div class="col-sm-4">
-                    <input class="form-control" name="cPostal" type="text" placeholder="Codigo Postal">
+                    <input class="form-control" name="cPostal" type="text" placeholder="Codigo Postal" required>
                 </div>
             </div>
             <div class="form-group" >
-                <button "type="submit" name="submit" class="form-control btn-xl btn-yellow"><p>Solicitar tu cotización</p></button>
+                <button type="submit" name="submit_cot" class="form-control btn-xl btn-yellow"><p>Solicitar tu cotización</p></button>
             </div>
         </form>
     </div>
-    <div class="tittle">
-        <h2 style="font-size: 38px;padding: 15px auto;">Contamos con <span class="semi-highlight">Financiamiento</span></h2>
-    </div>
-    <div class="pagos">
-        <div class="div-pago">
-            <img src="assets/img/pagos/FinBe.png" alt="FinBe">
-        </div>
-        <div class="div-pago">
-            <img src="assets/img/pagos/BBVA.png" alt="BBVA">
-        </div>
-        <div class="div-pago">
-            <img src="assets/img/pagos/banorte.png" alt="BANORTE">
-        </div>
-        <div class="div-pago">
-            <img src="assets/img/pagos/banregio.png" alt="BANREGIO">
-        </div>
-    </div>
 </div>
-<div class="jumboText">
+<div class="jumboText cot-bkg">
     <div class="tittle">
         <p>Aventura, Desempeño y trabajo. Es aquí donde nos destacamos.</p>
-        <h2>únete a esta <span class="semi-highlight">Comunidad</span></h2>
         <p>Bajaxsports cuenta para ti con vehículos hechos para cada terreno</p>
-        <p>ya sea para ir sobre los terrenos más difíciles, el trabajo más pesado</p>
-        <p>carreteras o mares, tenemos lo que estas buscando.</p>
+        <h2><span class="semi-highlight">Cuidamos</span> de tu vehículo</h2>
+        <p>Queremos que la unidad que compres co nosotros siempre este</p>
+        <p>en optimas condiciones para que tengas siempre el 100%.</p>
     </div>
 </div>
     <!--- Footer --->

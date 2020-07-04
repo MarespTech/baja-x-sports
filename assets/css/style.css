@@ -12,11 +12,15 @@
 .tittle {
     text-transform: uppercase;
     text-align: center;
-    padding-top: 8%;
+    padding-top: 4%;
 }
 
 .btn-yellow {
     background-color: #E2A723;
+}
+
+.navbar {
+    margin-bottom: 0;
 }
 
 
@@ -346,7 +350,6 @@ option {
 }
 
 .jumboText {
-    background-image: url(../img/jumbotext-background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -379,4 +382,26 @@ option {
     display: flex;
     flex-wrap: wrap;
     margin: 10% auto;
+}
+
+.cot-bkg {
+    background-image: url(../img/jumbotext-background.png);
+}
+
+.mtto-bkg {
+    background-image: url(../img/mtto-background.png);
+}
+
+
+/************************************* CATALOGOS *************************************/
+
+.catalogo img {
+    width: 60%;
+}
+
+
+/************************************* CATEGORIES PAGES *************************************/
+
+.atv-bkg {
+    background-image: url(../img/atv-background.png);
 }
