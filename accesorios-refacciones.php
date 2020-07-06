@@ -9,43 +9,45 @@
     <div class="row catalogo">
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/can-am-catalogo.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/maverick-x3.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/defender.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/maverick-trail.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/commander.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/outlander-renegade.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
+    </div>
+    <div class="row catalogo">
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/sea-doo.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
         <div class="col-sm-6">
-            <img src="assets/img/Portadas Catalogos/sea-doo2.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <img style="margin: 2% 7.5%; margin-bottom: 10%;" src="assets/img/Portadas Catalogos/sea-doo2.png" alt="">
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/joy-of-three.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
         <div class="col-sm-6">
             <img src="assets/img/Portadas Catalogos/ryker.png" alt="">
-            <a href="#" style="display: block;" class="btn btn-yellow">Descargar Catalogo PDF</a>
+            <a href="#" class="btn btn-yellow"><span class="glyphicon glyphicon-save"></span> Descargar Catalogo PDF</a>
         </div>
     </div>
 </div>

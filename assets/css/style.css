@@ -164,35 +164,26 @@
     text-align: center;
 }
 
+
+/*
 #categories .thumbnail {
     background-color: #000000;
     border: none;
     height: 280px;
     overflow: hidden;
-}
+}*/
 
-#categories .thumbnail img {
+#categories img {
     width: 100%;
     height: 235px;
 }
 
-#categories .caption {
-    background-color: #E2A723;
+#categories a {
+    color: #000;
     font-size: 25px;
-    height: 45px;
-}
-
-#categories .caption p {
-    padding-bottom: 5px;
-}
-
-@media only screen and (min-width: 1020px) {
-    #categories .row {
-        margin-left: 10%;
-    }
-    #categories .row>div {
-        width: 193px
-    }
+    height: 42px;
+    width: 185px;
+    border-radius: 0;
 }
 
 
@@ -395,8 +386,31 @@ option {
 
 /************************************* CATALOGOS *************************************/
 
+.catalogo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.catalogo h2 {
+    font-size: 34px;
+}
+
+.catalogo h3 {
+    font-size: 23px;
+}
+
 .catalogo img {
-    width: 60%;
+    width: 85%;
+    margin: 7.5%;
+    margin-bottom: 5%;
+}
+
+.catalogo a {
+    color: #000;
+}
+
+.catalogo>div:last-of-type {
+    margin-bottom: 100px;
 }
 
 
@@ -404,4 +418,6 @@ option {
 
 .atv-bkg {
     background-image: url(../img/atv-background.png);
+    height: 180px;
+    margin: 0 0 50px;
 }
